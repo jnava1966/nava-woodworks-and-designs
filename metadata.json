@@ -1,0 +1,8 @@
+{
+  "name": "Nava Woodworks and Designs",
+  "description": "Artesanía funcional, ebanistería de precisión y diseño e ingeniería híbrida por el Maestro Ebanista Juan Nava en Bahía de Kino, Sonora.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

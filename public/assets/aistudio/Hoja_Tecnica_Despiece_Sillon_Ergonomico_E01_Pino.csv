@@ -1,0 +1,9 @@
+Pieza,Descripción del Componente,Cant.,Dimensión Bruta (Largo x Ancho x Espesor) mm,Dimensión Neta Acabada (Largo x Ancho x Espesor) mm,Tipo de Ensamble y Mecanizado
+E-01,Riel Superior e Inferior de Respaldo (Luz 31"),2,815 x 95 x 32 mm,787 x 80 x 26 mm,Espigas laterales de caja cerrada y ranura para 7 listones
+E-02,Listones Verticales de Respaldo (Ancho 3" · Paso 1-1/4"),7,230 x 86 x 24 mm,206 x 76 x 19 mm,Espigas calibradas en serie para vano de 8-1/8"
+E-03,Descansabrazos Perfilados (Altura 24"),2,625 x 95 x 32 mm,603 x 82 x 26 mm,Rebaje frontal y mortaja pasante para pata trasera a 170.36°
+E-04,Listones Curvos de Asiento (Luz 31" · Concavidad 3/8"),7,810 x 70 x 24 mm,787 x 60 x 19 mm,Perfil anatómico de asiento (altura 16-1/4") con fijación oculta
+E-05,Patas Traseras Inclinadas (Alto 35-3/8" · 170.36°),2,925 x 100 x 56 mm,898 x 85 x 51 mm,Espesor 2" con cajas dobles para faldón y rieles de respaldo
+E-06,Patas Delanteras (Alto 24" · Sección 2"),2,630 x 58 x 56 mm,610 x 51 x 51 mm,Espiga superior hacia descansabrazo y caja lateral para faldón
+E-07,Faldón Frontal (Luz 31" × Alto 2-1/4"),1,815 x 68 x 30 mm,787 x 57 x 24 mm,Doble espiga en extremos y placa frontal grabada opcional
+E-08,Faldones Laterales y Largueros (Luz 15-3/8"),4,445 x 68 x 30 mm,425 x 57 x 24 mm,Espigas rectas con ajuste por fricción y adhesivo D4 marino

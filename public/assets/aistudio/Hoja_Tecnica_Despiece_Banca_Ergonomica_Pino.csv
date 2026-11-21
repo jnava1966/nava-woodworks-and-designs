@@ -1,0 +1,8 @@
+Pieza,Descripción del Componente,Cant.,Dimensión Bruta (Largo x Ancho x Espesor) mm,Dimensión Neta Acabada (Largo x Ancho x Espesor) mm,Tipo de Ensamble y Mecanizado
+B-01,Rieles Superior e Inferior de Respaldo (BOM #1-2),2,1340 x 95 x 32 mm,1310 x 80 x 26 mm,Espigas escalonadas en extremos y ranura longitudinal para listones
+B-02,Listones Verticales de Respaldo (BOM #4),10,410 x 75 x 22 mm,390 x 65 x 18 mm,Espigas de ensamble superior/inferior con cantos biselados
+B-03,Montantes y Patas de Brazos Izq./Der. (BOM #3),4,925 x 85 x 52 mm,902 x 72 x 45 mm,Cajas pasantes múltiples para faldones y rieles de respaldo
+B-04,Descansabrazos Esculpidos (BOM #3),2,620 x 95 x 32 mm,595 x 82 x 26 mm,Curva ergonómica superior y mortajas ciegas sobre montantes
+B-05,Balaustres Laterales bajo Brazos,6,340 x 45 x 24 mm,320 x 38 x 20 mm,Espigas rectas entre faldón lateral y descansabrazos
+B-06,Listones y Marco de Panel de Asiento (BOM #4/#8),12,1330 x 68 x 24 mm,1305 x 56 x 19 mm,Listones longitudinales de drenaje con espaciado uniforme 8 mm
+B-07,Faldón Frontal y Travesaños Perimetrales (BOM #5),4,1340 x 110 x 32 mm,1310 x 95 x 26 mm,Espiga doble de alta carga y refuerzo inferior del panel de asiento

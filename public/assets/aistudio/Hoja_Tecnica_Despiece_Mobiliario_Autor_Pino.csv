@@ -1,0 +1,5 @@
+Pieza,Descripción del Componente,Cant.,Dimensión Bruta (Largo x Ancho x Espesor) mm,Dimensión Neta Acabada (Largo x Ancho x Espesor) mm,Tipo de Ensamble y Mecanizado
+MA-01,Duelas de Tablero Macizo (Ref. Mesa 180×90 cm),5,1840 x 195 x 48 mm,1800 x 180 x 42 mm,Canteado de precisión y unión por lengüeta con canto vivo opcional
+MA-02,Largueros Estructurales de Bastidor,2,1560 x 105 x 42 mm,1520 x 92 x 36 mm,Nudo triaxial de caja y espiga entrelazada + canal para tensores
+MA-03,Travesaños de Amarre Anti-Alabeo,3,760 x 105 x 42 mm,720 x 92 x 36 mm,Cola de milano deslizante bajo cubierta para expansión estacional
+MA-04,Patas Estructurales de Carga,4,740 x 95 x 95 mm,708 x 85 x 85 mm,Encaje triaxial de tres vías sin herrajes visibles y nivelador oculto

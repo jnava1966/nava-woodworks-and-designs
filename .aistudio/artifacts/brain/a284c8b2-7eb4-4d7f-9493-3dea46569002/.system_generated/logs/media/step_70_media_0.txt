@@ -1,0 +1,10 @@
+En la Galería de Productos del sitio web interactivo se destacan las piezas principales de la firma:
+1. Soporte Ornamental / Pedestal de Exhibición (Tipo S-01)
+* Visualización Completa: Incorpora la renderización 3D del pedestal ensamblado en pino macizo junto con la ficha promocional (Ornate Display Stand.PNG) 1, 2.
+* Detalles de Carpintería Fina: Muestra los diagramas de ingeniería (Ornate Display Stand.webp y Ornate Display Stand 2.webp) con los cuatro sistemas de ensambles mecánicos sin tornillería vista (mortaja y espiga, cola de milano y aro estabilizador inferior) 1, 2.
+2. Taburete Artesanal (Tipo T-01)
+* Diseño y Estructura: Presenta la cubierta circular maciza, el bastidor de 4 patas anatómicas en curvatura ornamentada "S" y el anillo concéntrico de refuerzo inferior 3, 4.
+* Especificación de Material: Destaca la construcción exclusiva en Pino Regional Macizo tratado con selladores higroscópicos y protección UV para ambientes costeros 3, 5.
+3. Colecciones de Mobiliario y Carpintería Arquitectónica
+* Piezas Personalizadas: Incluye secciones dedicadas a mesas de autor, bancas ergonómicas, estanterías modulares y proyectos de carpintería fina estructural para cabañas y decks exteriores 3, 5.
+🌐 ¿Te gustaría agregar un cotizador interactivo dentro del sitio web donde los clientes puedan calcular el precio estimado de sus pedidos según el volumen de taburetes?

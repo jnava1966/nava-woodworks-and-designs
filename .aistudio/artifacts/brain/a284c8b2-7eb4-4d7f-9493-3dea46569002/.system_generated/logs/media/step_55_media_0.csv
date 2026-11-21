@@ -1,0 +1,4 @@
+Pieza,Descripción del Componente,Cant.,Dimensión Bruta (Largo x Ancho x Espesor) mm,Dimensión Neta Acabada (Largo x Ancho x Espesor) mm,Tipo de Ensamble y Mecanizado
+P-01,Plato Circular Superior,1,285 x 285 x 22 mm,Ø270 (útil Ø220) x 18 mm,"Vaciado interior a 6 mm de profundidad, mortajas perimetrales y ranuras en cola de milano ( Detail B )"
+P-02,"Patas Esculpidas en ""S""",4,335 x 145 x 22 mm,320 x 135 x 18 mm,"Perfil anatómico en curvatura R75 mm, espiga rectangular superior ( Detail C ) y rebate curvo ( Detail D )"
+P-03,Aro Concéntrico de Estabilización,1,225 x 225 x 22 mm,Ø195 (exterior) x 18 x 18 mm,Fresado circular continuo con 4 muescas de encaje a media madera ( Detail D )
