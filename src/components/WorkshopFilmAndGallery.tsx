@@ -134,7 +134,7 @@ export function WorkshopFilmAndGallery({ onInspectImage }: WorkshopFilmAndGaller
               <div className="relative aspect-video bg-black">
                 <video
                   ref={videoRef}
-                  src="/assets/aistudio/Llegando_a_Bahia_de_Kino_00be1f88.mp4"
+                  src={`${import.meta.env.BASE_URL}assets/aistudio/Llegando_a_Bahia_de_Kino_00be1f88.mp4`}
                   playsInline
                   muted={isMuted}
                   preload="metadata"

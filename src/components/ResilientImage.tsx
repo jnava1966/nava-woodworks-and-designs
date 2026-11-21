@@ -16,6 +16,10 @@ export function ResilientImage({
 }: ResilientImageProps) {
   const [hasError, setHasError] = useState(false);
 
+  const normalizedSrc = src.startsWith('/assets/')
+    ? `${import.meta.env.BASE_URL}${src.slice(1)}`
+    : src;
+
   if (hasError) {
     return (
       <div
@@ -34,7 +38,7 @@ export function ResilientImage({
 
   return (
     <img
-      src={src}
+      src={normalizedSrc}
       alt={alt}
       referrerPolicy="no-referrer"
       onError={() => setHasError(true)}
