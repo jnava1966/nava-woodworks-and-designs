@@ -8,6 +8,7 @@ import {
   type QuoteCatalogItem,
 } from '../data/studioData';
 import { ResilientImage } from './ResilientImage';
+import { publicAssetUrl } from '../utils';
 
 interface ProductGalleryProps {
   onInspectImage: (image: string, title: string, caption: string) => void;

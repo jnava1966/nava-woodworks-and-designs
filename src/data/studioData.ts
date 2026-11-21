@@ -980,10 +980,10 @@ export const DIGITAL_WORKFLOW_STEPS = [
 ];
 
 export const OFFICIAL_CATALOG_PATH =
-  '/assets/aistudio/Cat_logo_Oficial_de_Productos_y_Servicios__NavaWoodworks_38b930f7';
+  '/assets/aistudio/Cat_logo_Oficial_de_Productos_y_Servicios__NavaWoodworks_38b930f7.txt';
 
 export const T01_QUOTE_SOURCE_PATH =
-  '/assets/aistudio/Copia_de_cotizacion_taburete_artesanal_pino_navawoodworks_v8_0a460167';
+  '/assets/aistudio/Copia_de_cotizacion_taburete_artesanal_pino_navawoodworks_v8_0a460167.csv';
 
 export const E01_QUOTE_SOURCE_PATH =
   '/assets/aistudio/Cotizacion_Sillon_Ergonomico_E01_Pino_v8.csv';

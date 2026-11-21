@@ -1,0 +1,5 @@
+export function publicAssetUrl(path: string): string {
+  if (!path) return path;
+  if (/^(?:https?:|mailto:|tel:|#)/.test(path)) return path;
+  return `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+}

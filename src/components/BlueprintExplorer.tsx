@@ -9,6 +9,7 @@ import {
   type CutlistSheet,
 } from '../data/studioData';
 import { ResilientImage } from './ResilientImage';
+import { publicAssetUrl } from '../utils';
 
 interface BlueprintExplorerProps {
   onInspectImage: (image: string, title: string, caption: string) => void;

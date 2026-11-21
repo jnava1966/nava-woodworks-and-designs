@@ -12,6 +12,7 @@ import {
   WOOD_OPTIONS,
   type QuoteCatalogItem,
 } from '../data/studioData';
+import { publicAssetUrl } from '../utils';
 
 interface CommissionSectionProps {
   selectedQuoteId: QuoteCatalogItem['id'];
@@ -870,7 +871,7 @@ export function CommissionSection({
               </div>
 
               <a
-                href={activeBreakdownCsvPath}
+                href={publicAssetUrl(activeBreakdownCsvPath)}
                 download={activeBreakdownCsvName}
                 className="inline-flex items-center gap-2 px-4 py-2 text-xs font-medium text-[#1C1612] bg-[#F7F5F0] hover:bg-[#E5E0D6] border border-[#1C1612]/15 rounded-md transition-colors whitespace-nowrap shrink-0"
               >
