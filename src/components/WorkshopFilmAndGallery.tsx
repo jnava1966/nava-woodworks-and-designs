@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react';
 import { Download, Maximize2, Pause, Play, Volume2, VolumeX } from 'lucide-react';
 import { BRAND_INFO, GALLERY_ARTIFACTS } from '../data/studioData';
 import { ResilientImage } from './ResilientImage';
-import { publicAssetUrl } from '../utils';
 
 interface WorkshopFilmAndGalleryProps {
   onInspectImage: (image: string, title: string, caption: string) => void;
@@ -122,7 +121,7 @@ export function WorkshopFilmAndGallery({ onInspectImage }: WorkshopFilmAndGaller
               </div>
               <div>
                 <p className="text-xs text-[#A89C90]">Especialidad</p>
-                <p className="text-sm font-medium text-[#F7F5F0] mt-1>
+                <p className="text-sm font-medium text-[#F7F5F0] mt-1">
                   {BRAND_INFO.hybridTagline}
                 </p>
               </div>
@@ -135,7 +134,7 @@ export function WorkshopFilmAndGallery({ onInspectImage }: WorkshopFilmAndGaller
               <div className="relative aspect-video bg-black">
                 <video
                   ref={videoRef}
-                  src={`${import.meta.env.BASE_URL}assets/aistudio/Llegando_a_Bahia_de_Kino_00be1f88.mp4`}
+                  src="/assets/aistudio/Llegando_a_Bahia_de_Kino_00be1f88.mp4"
                   playsInline
                   muted={isMuted}
                   preload="metadata"
