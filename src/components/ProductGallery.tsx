@@ -8,6 +8,7 @@ import {
   type QuoteCatalogItem,
 } from '../data/studioData';
 import { ResilientImage } from './ResilientImage';
+import { publicAssetUrl } from '../utils';
 
 interface ProductGalleryProps {
   onInspectImage: (image: string, title: string, caption: string) => void;
@@ -253,7 +254,7 @@ export function ProductGallery({ onInspectImage, onSelectForQuote }: ProductGall
                   </h3>
                 </div>
                 <a
-                  href={OFFICIAL_CATALOG_PATH}
+                  href={publicAssetUrl(OFFICIAL_CATALOG_PATH)}
                   download="Catalogo_Oficial_NavaWoodworks.txt"
                   className="inline-flex items-center gap-2 px-4 py-2.5 text-xs font-medium text-[#1C1612] bg-[#F7F5F0] hover:bg-[#E5E0D6] border border-[#1C1612]/15 rounded-md transition-colors whitespace-nowrap shrink-0 self-start sm:self-auto"
                 >

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Download, Maximize2, Pause, Play, Volume2, VolumeX } from 'lucide-react';
 import { BRAND_INFO, GALLERY_ARTIFACTS } from '../data/studioData';
 import { ResilientImage } from './ResilientImage';
+import { publicAssetUrl } from '../utils';
 
 interface WorkshopFilmAndGalleryProps {
   onInspectImage: (image: string, title: string, caption: string) => void;
@@ -134,7 +135,7 @@ export function WorkshopFilmAndGallery({ onInspectImage }: WorkshopFilmAndGaller
               <div className="relative aspect-video bg-black">
                 <video
                   ref={videoRef}
-                  src="/assets/aistudio/Llegando_a_Bahia_de_Kino_00be1f88.mp4"
+                  src={publicAssetUrl('/assets/aistudio/Llegando_a_Bahia_de_Kino_00be1f88.mp4')}
                   playsInline
                   muted={isMuted}
                   preload="metadata"
@@ -290,7 +291,7 @@ export function WorkshopFilmAndGallery({ onInspectImage }: WorkshopFilmAndGaller
                     {item.pdfUrl && (
                       <div className="pt-2">
                         <a
-                          href={item.pdfUrl}
+                          href={publicAssetUrl(item.pdfUrl)}
                           download="Plano_CAD_Sillon_Ergonomico_E01.pdf"
                           className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-[#1C1612] bg-[#F7F5F0] hover:bg-[#E5E0D6] rounded-md transition-colors"
                         >

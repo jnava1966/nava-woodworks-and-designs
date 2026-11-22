@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Layers } from 'lucide-react';
+import { publicAssetUrl } from '../utils';
 
 interface ResilientImageProps {
   src: string;
@@ -34,7 +35,7 @@ export function ResilientImage({
 
   return (
     <img
-      src={src}
+      src={publicAssetUrl(src)}
       alt={alt}
       referrerPolicy="no-referrer"
       onError={() => setHasError(true)}

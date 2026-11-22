@@ -9,6 +9,7 @@ import {
   type CutlistSheet,
 } from '../data/studioData';
 import { ResilientImage } from './ResilientImage';
+import { publicAssetUrl } from '../utils';
 
 interface BlueprintExplorerProps {
   onInspectImage: (image: string, title: string, caption: string) => void;
@@ -147,7 +148,7 @@ export function BlueprintExplorer({ onInspectImage }: BlueprintExplorerProps) {
               <div className="absolute right-3 bottom-3 flex items-center gap-2">
                 {activeView.pdfUrl && (
                   <a
-                    href={activeView.pdfUrl}
+                    href={publicAssetUrl(activeView.pdfUrl)}
                     download="Plano_CAD_Sillon_Ergonomico_E01.pdf"
                     className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium bg-[#9A6B2F] hover:bg-[#7F5623] text-white rounded-md transition-colors"
                   >
@@ -259,7 +260,7 @@ export function BlueprintExplorer({ onInspectImage }: BlueprintExplorerProps) {
               </div>
 
               <a
-                href={activeCutlist.csvPath}
+                href={publicAssetUrl(activeCutlist.csvPath)}
                 download={activeCutlist.csvFilename}
                 className="inline-flex items-center gap-2 px-4 py-2.5 text-xs font-medium text-[#1C1612] bg-[#EFECE5] hover:bg-[#E5E0D6] border border-[#1C1612]/15 rounded-md transition-colors whitespace-nowrap shrink-0 self-start sm:self-auto"
               >

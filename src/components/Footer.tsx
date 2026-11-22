@@ -1,5 +1,6 @@
 import { BRAND_INFO } from '../data/studioData';
 import { ResilientImage } from './ResilientImage';
+import { publicAssetUrl } from '../utils';
 
 export function Footer() {
   return (
@@ -8,7 +9,7 @@ export function Footer() {
         <div className="flex items-center gap-4">
           <div className="w-12 h-12 rounded-lg overflow-hidden border border-[#1C1612]/15 shrink-0">
             <ResilientImage
-              src="/assets/aistudio/Logo_Nava_Woodworks_2_4626c698.png"
+              src={publicAssetUrl('/assets/aistudio/Logo_Nava_Woodworks_2_4626c698.png')}
               alt="Escudo Nava Woodworks"
               className="w-full h-full object-cover"
               fallbackTitle="NW"
