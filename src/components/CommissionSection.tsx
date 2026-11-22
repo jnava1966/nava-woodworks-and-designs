@@ -201,12 +201,36 @@ export function CommissionSection({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!clientName.trim() || !clientEmail.trim()) {
-      setFormError('Por favor ingresa tu nombre y correo electrónico para registrar la cotización.');
+      setFormError('Por favor ingresa tu nombre y correo electrónico para preparar la cotización.');
       return;
     }
     setFormError(null);
     const code = `NW-${Math.floor(1000 + Math.random() * 9000)}`;
     setSubmittedRef(code);
+
+    const subject = selectedProduct.isCustomQuote
+      ? `Cotización ${code} - ${quantity}x ${archCategory} (${widthCm}×${depthCm}×${heightCm} cm)`
+      : `Cotización ${code} - ${quantity}x ${selectedProduct.name}`;
+
+    const body = [
+      `Folio: ${code}`,
+      `Nombre: ${clientName}`,
+      `Correo del cliente: ${clientEmail}`,
+      `Línea: ${selectedProduct.name}`,
+      selectedProduct.isCustomQuote ? `Pieza / Especialidad: ${archCategory}` : null,
+      selectedProduct.isCustomQuote
+        ? `Medidas Solicitadas: ${widthCm} cm largo × ${depthCm} cm fondo × ${heightCm} cm alto`
+        : null,
+      `Cantidad: ${quantity} piezas (${volumeTier.label})`,
+      `Madera: ${selectedWood.name}`,
+      `Construcción: ${selectedMetal.name}`,
+      `Acabado: ${selectedFinish.name}`,
+      `Empaque de Protección: ${includePackaging ? `Sí (+${formatMxn(activeProductBreakdown.packagingAddonWithIva)} MXN c/IVA por unidad)` : 'No (Entrega en Taller Bahía de Kino)'}`,
+      `Estimado con IVA (16%): ${formatMxn(estimatedSubtotal)} MXN (${formatMxn(discountedUnit)}/pza${selectedProduct.isCustomQuote ? ' · sujeto a plano final según medidas' : ''})`,
+      `Notas: ${notes || 'Sin notas adicionales'}`,
+    ].filter(Boolean).join('\n');
+
+    window.location.href = `mailto:${BRAND_INFO.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
   const mailSubject = selectedProduct.isCustomQuote
@@ -663,7 +687,7 @@ export function CommissionSection({
                   </span>
                   <div>
                     <p className="text-sm font-semibold">
-                      Solicitud {submittedRef} Confirmada
+                      Solicitud {submittedRef} Preparada
                     </p>
                     <p className="text-xs text-[#574D44]">
                       Taller Nava Woodworks · Bahía de Kino
