@@ -684,7 +684,7 @@ export const GALLERY_ARTIFACTS: GalleryArtifact[] = [
     image: '/assets/aistudio/navawoodworks_hoja_membretada_oficial_53418f0e.png',
     alt: 'Presentación oficial Del Píxel a la Madera de Nava Woodworks and Designs',
     fitMode: 'cover',
-    pptxUrl: '/assets/aistudio/Del_Píxel_a_la_Madera.pptx',
+    pptxUrl: '/assets/aistudio/Del_Pixel_a_la_Madera.pptx',
     pptxLabel: 'Descargar Presentación (PPTX)',
   },
 ];
