@@ -46,6 +46,8 @@ export interface GalleryArtifact {
   fitMode?: 'cover' | 'contain';
   pdfUrl?: string;
   pdfLabel?: string;
+  pptxUrl?: string;
+  pptxLabel?: string;
 }
 
 export interface WoodOption {
@@ -671,6 +673,19 @@ export const GALLERY_ARTIFACTS: GalleryArtifact[] = [
     fitMode: 'contain',
     pdfUrl: '/assets/aistudio/Sillon_Ergonomico_0859ca67.pdf',
     pdfLabel: 'Descargar Plano CAD (PDF)',
+  },
+  {
+    id: 'pixel-a-madera-presentation',
+    group: 'identidad',
+    title: 'Del Píxel a la Madera',
+    category: 'Presentación Oficial',
+    year: 'Nava Woodworks & Designs',
+    caption: 'Presentación completa del proceso creativo e industrial: del diseño digital a la fabricación artesanal en madera.',
+    image: '/assets/aistudio/navawoodworks_hoja_membretada_oficial_53418f0e.png',
+    alt: 'Presentación oficial Del Píxel a la Madera de Nava Woodworks and Designs',
+    fitMode: 'cover',
+    pptxUrl: '/assets/aistudio/Del_Píxel_a_la_Madera.pptx',
+    pptxLabel: 'Descargar Presentación (PPTX)',
   },
 ];
 

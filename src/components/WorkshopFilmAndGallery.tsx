@@ -300,6 +300,18 @@ export function WorkshopFilmAndGallery({ onInspectImage }: WorkshopFilmAndGaller
                         </a>
                       </div>
                     )}
+                    {item.pptxUrl && (
+                      <div className="pt-2">
+                        <a
+                          href={publicAssetUrl(item.pptxUrl)}
+                          download="Del_Pixel_a_la_Madera.pptx"
+                          className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-[#1C1612] bg-[#F7F5F0] hover:bg-[#E5E0D6] rounded-md transition-colors"
+                        >
+                          <Download className="w-3.5 h-3.5 text-[#9A6B2F]" aria-hidden="true" />
+                          <span>{item.pptxLabel ?? 'Descargar Presentación'}</span>
+                        </a>
+                      </div>
+                    )}
                   </div>
                 </article>
               );
